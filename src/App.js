@@ -1,4 +1,3 @@
-import "./App.css";
 import ConditionalRendering from "./components/ConditionalRendering";
 import ShortRender from "./components/ShortRender";
 import ShowHide from "./components/ShowHide";

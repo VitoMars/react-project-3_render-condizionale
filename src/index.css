@@ -269,3 +269,7 @@ label {
     transform: rotate(360deg);
   }
 }
+
+.App {
+  text-align: center;
+}
