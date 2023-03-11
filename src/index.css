@@ -76,7 +76,6 @@ h3,
 h4,
 h5,
 h6 {
-  text-transform: capitalize;
   letter-spacing: var(--spacing);
 }
 
@@ -91,40 +90,8 @@ h6 {
   padding: 2rem;
 }
 
-.button {
-  border-radius: 3px;
-  padding: 0.2rem 0.3rem !important;
-  border: transparent;
-  background-color: var(--clr-primary-5);
-  color: var(--clr-white);
-  transition: var(--transition);
-}
-
 button:hover {
   background-color: var(--clr-primary-1);
-}
-
-.delete-button {
-  background-color: transparent;
-  color: var(--clr-red-dark);
-  font-size: 1.1em;
-}
-
-.delete-button:hover {
-  color: var(--clr-white);
-  background-color: var(--clr-red-dark);
-}
-
-.reset-button {
-  padding: 0rem 2rem;
-  background-color: var(--clr-orange-6);
-  color: var(--clr-white);
-  font-size: 1.1em;
-}
-
-.reset-button:hover {
-  background-color: var(--clr-orange-7);
-  box-shadow: 0px 0px 7px var(--light-shadow);
 }
 
 .users {
@@ -269,7 +236,6 @@ label {
     transform: rotate(360deg);
   }
 }
-
 .App {
   text-align: center;
 }
