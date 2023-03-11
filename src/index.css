@@ -90,10 +90,6 @@ h6 {
   padding: 2rem;
 }
 
-button:hover {
-  background-color: var(--clr-primary-1);
-}
-
 .users {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -121,10 +117,6 @@ button:hover {
 .users a {
   color: var(--clr-grey-5);
   text-transform: capitalize;
-}
-
-label {
-  justify-self: start;
 }
 
 .modal-section {
@@ -235,7 +227,4 @@ label {
   100% {
     transform: rotate(360deg);
   }
-}
-.App {
-  text-align: center;
 }

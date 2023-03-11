@@ -4,7 +4,7 @@ import ShowHide from "./components/ShowHide";
 
 function App() {
   return (
-    <div className="App d-flex flex-column align-items-center">
+    <div className="d-flex flex-column align-items-center">
       <ConditionalRendering />
       <hr />
       <ShowHide />
